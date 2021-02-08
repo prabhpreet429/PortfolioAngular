@@ -1,14 +1,301 @@
-<nav class="navbar navbar-expand-sm" style="background-color: #e3f2fd;" >
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 3</a>
-    </li>
+<header class = "jumbotron"> 
+  <div class = "container">
+      <div class = "row row-header">
+          <div class ="col-12 col-sm-8">
+              <h1>Prabhpreet Singh</h1>
+              Full-Stack Software Developer<br>
+          </div>
+          <div class ="col-12 col-sm-4">
+              <img class="d-flex mr-1 img-thumbnail" src="assets/img/WhatsApp Image 2020-03-10 at 12.32.17 AM.jpeg" 
+              height="300" width="200">
+          </div>
+      </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class = "row row-content" style="height: 731px;">
+  <div class = "col-12">
+  <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#work"
+          role="tab" data-toggle="tab"><h5>Work Experience</h5></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#education" role="tab"
+            data-toggle="tab"><h5>Education</h5></a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills" role="tab"
+          data-toggle="tab"><h5>Skills</h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects"role="tab"
+          data-toggle="tab"><h5>Projects</h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#cert" role="tab"
+          data-toggle="tab"><h5>Certification</h5></a>
+      </li>
   </ul>
-</nav>
-<router-outlet></router-outlet>
+  <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade" id="education">
+          <b>Master of Engineering, Software Engineering</b>
+          <i style="float: right;">Jan 2018 – Apr 2020</i><br>
+          <b>Concordia University, Montreal, Canada</b><br>
+          Current GPA: 3.57/4.3<br>
+          Relevant Courses: Advanced Database, Software Architecture, Advanced Programming Practices, Software Comprehension and Maintenance, Data Mining, Software Design Methodologies, Software Engineering Processes<br>
+          <br>
+          <b>Bachelor of Engineering, Computer Engineering</b>
+          <i style="float: right;">Aug 2013 – May 2017</i><br>
+          <b>Chandigarh University, India</b><br>
+          Cumulative GPA: 8.6/10<br>
+          Relevant Coureses: C, C++, Java, Data Structure, Operating System, Compiler Design, Computer Hardware<br>
+
+          
+      
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade show active" id="work">
+          <b>Full-Stack Software Developer</b>
+          <i style="float: right;">Sep 2020 - Present</i><br>
+          Uxpertise<br>
+          <br>
+          <b>Software Developer Intern</b>
+          <i style="float: right;">May 2020 - Sep 2020</i><br>
+          Flinks Technology<br>
+          <br>
+          <b>Java Trainee</b>
+          <i style="float: right;">May 2015 - Jul 2015</i><br>
+          Piford Technologies<br>
+
+
+      </div>
+  
+      <div role="tabpanel" class="tab-pane fade" id="skills">
+          <ul class = "skil">
+              <li><b>Languages:</b> Java, C, C++, C#, SQL, Python </li>
+              <li><b>Web Development:</b> HTML 5, CSS 3, JavaScript, JSON, AJAX, Bootstrap 4, React (Novice) </li>
+              <li><b>Database Technologies:</b> Oracle, MSSQL </li>
+              <li><b>Testing Framework:</b> JUnit </li>
+              <li><b>Environment:</b> Visual Studio, Eclipse IDE, Netbeans IDE, intelliJ </li>
+              <li><b>Methodology used:</b> Agile</li>
+              <li><b>Version Control System:</b> Git</li>
+              <li><b>Code Review Tools:</b> PMD, SonarLint</li>
+          </ul>
+      </div>
+  
+  
+      <div role="tabpanel" class="tab-pane fade" id="projects">
+          <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#Portfolio"
+                  role="tab" data-toggle="tab">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#data" role="tab"
+                  data-toggle="tab">Data Mining</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#hgame" role="tab"
+                    data-toggle="tab">HangMan Game</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#twitter" role="tab"
+                  data-toggle="tab">Twitter Analysis</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#rest" role="tab"
+                    data-toggle="tab">Restaurant Management</a>
+                </li>
+          </ul>
+          <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade show active" id="Portfolio">
+                  <b>Portfolio Website</b><br>
+                  <b>Technology Used:</b> HTML 5, CSS 3, JavaScript, BootStrap 4<br>
+                  
+                  <div class="container">
+                      <div class = "row row-content">
+                  <div class = "col-sm-4">
+                  <ul><li>
+                  The portfolio website is developed using BootStrap components including Jumbotron, Tabs, nested Tabs.
+                      </li>
+
+                      <li>This is a responsive website that is compatible on mobile devices.</li>
+                      </ul>
+                  
+                  </div>
+                  
+                  <div class = "col-sm-4">
+                      <img  src="assets/img/port.PNG" 
+                      height="400" width="400">
+                  </div>
+                  </div>
+                  </div>
+
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="data">
+                      <b>Network Intrusion Detection System</b> <br>
+                      <b>Technology Used:</b> Python, WEKA GUI, Jupyter Notebook
+                      <ul>
+                          <li>Implemented preprocessing techniques on KDD Cup dataset to understand the data</li>
+                          <li>Used WEKA GUI software to perform feature selection on dataset</li>
+                          <li>Implemented K- Nearest Neighbor, Logistic Regression and Gaussian Naive Bayes classification algorithms from scratch on the dataset to predict whether some data will be considered as an attack or not</li>
+                          <li>Used Matplotlib in Python for the visualization of the dataset</li>
+                      </ul>
+                  </div>
+                  
+                  <div role="tabpanel" class="tab-pane fade" id="hgame">
+                      <b>HangMan Game (Word Guessing Game)</b> <br>
+                      <b>Technology Used:</b> C#, MSSQL, Visual Studio
+                      <ul>
+                          <li>Developed a guessing game in Windows Form Application that enabled the user to login and guess the random hidden word by selecting appropriate alphabets</li>
+                          <li>Computed an appropriate way to calculate the scoring based on the number of alphabets guessed and how many chances were used by the user</li>
+                          <li>Used MSSQL database to store and display username and score in descending order in data grid view when the game ends</li>
+                      </ul>
+                      
+                      <div class="row justify-content-md-center" style="height: 350px;">
+                              <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                                  <div class="carousel-inner" role="listbox">
+                                      <div class="carousel-item active">
+                                          <img class="img-fluid img-thumbnail "
+                                              src="assets/img/hm1.PNG" alt="1">
+                                          
+                                      </div>
+                                      
+                                      <div class="carousel-item">
+                                          <img class="img-fluid img-thumbnail" src="assets/img/hm2.PNG">
+                                          
+                                      </div>
+                                      
+                                      <div class="carousel-item">
+                                          <img class="img-fluid img-thumbnail"
+                                          src="assets/img/hm3.PNG" alt="3">
+                                          
+                                      </div>
+              
+                                  </div>
+                                  <ol class="carousel-indicators">
+                                      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                                      <li data-target="#mycarousel" data-slide-to="1"></li>
+                                      <li data-target="#mycarousel" data-slide-to="2"></li>
+                                  </ol>
+                                  <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon"></span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon"></span>
+                                  </a>
+                                  <button class="btn btn-danger btn-sm" id="carouselButton">
+                                      <span class="fa fa-pause"></span>
+                                  </button>
+                                  </div>
+                           </div>
+                  
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="twitter">
+                      <b>Twitter Analysis</b> <br>
+                      <b>Technology Used:</b> Play Framework, Java 8, JavaScript, Eclipse IDE
+                      <ul>
+                          <li>Implemented Java 8 for designing web page using MVC pattern to retrieve the latest tweets on to a web page using Twitter API</li>
+                          <li>Computed the geographical location of a tweet by using the latitude and longitude</li>
+                          <li>Learned about the use of Future in Java for storing results that can take place in future</li>    
+                      </ul>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="rest">
+                      <b>Restaurant Management and Billing System</b> <br>
+                      <b>Technology Used:</b> Java, SQL, Oracle Database, Netbeans IDE
+                      <ul>
+                         <li>Implemented Java Swing to create User Interface for customers</li>
+                         <li>Planned to design a customer-centric application to limit the wait time experienced during ordering of food</li>
+                         <li>Enabled the customer to login using unique table number and mobile number and order food in their currency</li>
+                         <li>Enabled chef to login and go through customer order and prepare the order</li>
+                         <li>Implemented Oracle database to keep track of customer’s records and their most ordered food</li>
+                      </ul>
+                  </div>
+      </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="cert">
+
+
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets/certificates/data.PNG" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/certificates/python.PNG" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/certificates/bootstrap.PNG" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/certificates/javascript.PNG" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/certificates/javascriptplural.PNG" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/certificates/json.PNG" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/certificates/py.PNG" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>React Specialiation</h5>
+                      <p>Hong Kong University of Science and Technology, Coursera Specialization</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                      <h5>Angular Specialiation</h5>
+                      <p>Hong Kong University of Science and Technology, Coursera Specialization</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Full Stack Java Developer Course</h5>
+                      <p>Udemy</p>
+                    </div>
+                </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          
+
+
+          
+          </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<footer class = "footer" style="height: 140px;">
+  <div class = "container">
+      <div class ="row">             
+         
+          <div class = "col-6">
+              <h5>Address</h5>
+              <address>
+            Canada<br>
+            
+         </address>
+          </div>
+          <div class = "col-6 align-self-center">
+              Phone: +1 (514)568-6633<br>
+              Email: <a href="mailto:prabhpreet429@gmail.com">prabhpreet429@gmail.com</a><br>
+              LinkedIn: <a href="https://www.linkedin.com/in/prabhpreet-s/">https://www.linkedin.com/in/prabhpreet-s/</a><br>  
+          </div>
+        
+     </div>
+  </div>
+</footer>
