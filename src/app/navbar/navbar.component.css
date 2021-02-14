@@ -5,16 +5,12 @@
   .row-content {
     margin: 0px auto;
     padding: 50px 0px;
-    border-bottom: 1px ridge;
     min-height: 300px;
   }
   .footer {
     background-color: #20C0B8;
     margin: 0px auto;
     padding: 20px 0px;
-  }
-  .tab-content {
-      font-size: medium;
   }
   .jumbotron {
     margin: 0px auto;
@@ -37,9 +33,7 @@
   } 
   
   .tab-content {
-      border-left: 1px solid #ddd;
-      border-right: 1px solid #ddd;
-      border-bottom: 1px solid #ddd;
+      font-size: medium;
       padding: 10px;
   }
   .skil {
