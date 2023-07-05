@@ -8,53 +8,61 @@
     min-height: 300px;
   }
   .footer {
-    background-color: #20C0B8;
+    height: 200px;
+    background-color: #067E78;
+    color: floralwhite;
     margin: 0px auto;
     padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer a {
+    color: floralwhite;
   }
   .jumbotron {
     margin: 0px auto;
     padding: 70px 30px;
     background: #067E78;
     color: floralwhite;
-  }
-  address {
-    font-size: 100%;
-    margin: 0px;
-    color: #0f0f0f;
-  }
-   a {
-    color: #036A64;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  body {
-    z-index: 0;
   } 
-  
   .tab-content {
       font-size: medium;
       padding: 10px;
   }
+  #cert {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+  }
   .skil {
     list-style: none;
   }
+  .skil li {
+    margin-bottom: 8px;
+  }
+  .carousel-inner {
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-   
     background-color: black;
-   
-   
   }
   .carousel .carousel-item {
     height: 500px;
-    width: 500px;
   
   }
   .carousel .carousel-item img {
     position: absolute;
     margin: auto;
     display: block;
+    width: auto !important;
+    height: 100%;
     
   }
   #carouselButton {
@@ -63,9 +71,16 @@
     bottom: 0px;
     z-index: 1;
   }
-  .carousel       
-  {
-    width: 520px;
-    height: 400px;
+  .carousel {
+    width: 650px;
+    height: 500px;
     align-content: center;
+  }
+  .nav-link {
+    font-size: 24px;
+    font-weight: 600;
+    color: #067E78;
+  }
+  * { 
+    font-size: 20px;
   }
