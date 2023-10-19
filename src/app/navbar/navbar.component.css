@@ -8,7 +8,7 @@
     min-height: 300px;
   }
   .footer {
-    height: 200px;
+    height: 150px;
     background-color: #067E78;
     color: floralwhite;
     margin: 0px auto;
@@ -25,7 +25,6 @@
   }
   .jumbotron {
     margin: 0px auto;
-    padding: 70px 30px;
     background: #067E78;
     color: floralwhite;
   } 
