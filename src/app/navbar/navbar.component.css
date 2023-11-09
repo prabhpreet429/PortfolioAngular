@@ -7,10 +7,11 @@
     padding: 50px 0px;
     min-height: 300px;
   }
+  .img-thumbnail {
+    border-radius: 50%;
+  }
   .footer {
-    height: 150px;
-    background-color: #067E78;
-    color: floralwhite;
+    background-color: #D4D2CF;
     margin: 0px auto;
     padding: 20px 0px;
     position: fixed;
@@ -21,12 +22,11 @@
     align-items: center;
   }
   .footer a {
-    color: floralwhite;
+    color: #000000;
   }
   .jumbotron {
     margin: 0px auto;
-    background: #067E78;
-    color: floralwhite;
+    background: #D4D2CF;
   } 
   .tab-content {
       font-size: medium;
@@ -78,7 +78,7 @@
   .nav-link {
     font-size: 24px;
     font-weight: 600;
-    color: #067E78;
+    color: #000000;
   }
   * { 
     font-size: 20px;
